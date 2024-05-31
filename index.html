@@ -1,13 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plano alimentar</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivity.css">
+    <title></title>Estrutura Responsiva</title>
 </head>
-<body>
-    <h1>Hello World!</h1>
-    <h1>Plano alimentar</h1>
-    
+
+<body id="topo">
+    <div  class="container">
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Navbar</h1>
+                </div>
+                <ul class="links">
+                    <li><a href="#topo">Topo</a></li>
+                    <li><a href="#Secção-01">secção 1</a></li>
+                    <li><a href="#Secção-02">secção 2</a></li>
+                    <li><a href="#Rodape">Rodapé</a></li>
+                </ul>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="#topo">Topo</a></li>
+                <li><a href="#Secção-01">secção 1</a></li>
+                <li><a href="#Secção-02">secção 2</a></li>
+                <li><a href="#Rodape">Rodapé</a></li>
+            </div>
+        </header>
+
+        <main>
+            <picture class="banner">
+                <source media="(max-width:800px)" srcset="img/banner-320.png">
+                <h1>Banner</h1>
+                <img src="./img/Banner1920x450.png" alt="banner">
+            </picture>
+            
+            <section class="section-01">
+                <div id="Secção-01" class="section-01-texto">
+                    <h1>Secção 01:</h1>
+                </div>
+                <div class="section-01-card">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, numquam.</p>
+                </div>
+            </section>
+
+            <section id="Secção-02" class="Secção-02">
+                <div class="Secção-02-texto">
+                    <h1 id="projetos">Secção 02</h1>
+                </div>
+                <div class="Secção-02-area">
+                    <div class="secção-02-area-card">
+                        <div class="Secção-02-area-card-texto">
+                            <h2>Titulo do card</h2>
+                            <img class="Secção-02-area-card-img" src="./img/meu-portifolio.png" alt="img do card"/>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quam!</p>
+                            <h3>Ttitulo da explicação do card:</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, optio!</p>
+                            <div class="Secção-02-area-card-botoes">
+                                <a href="https://github.com/denissssantana/portifolio" target="_blank"><button id="botao" type="button">Github</button></a> 
+                            </div>
+                        </div>
+                    </div>
+                    
+
+            </section>
+        </main>
+        <footer>
+            <div id="Rodape" class="rodape">
+                <div class="rodape-texto">
+                    <h1>Rodapé</h1>
+                </div>
+                <div class="rodape-topo">
+                    <a href="#topo">
+                        <img id="topo" src="./img/icons/circle-up-b.png" alt="topo">
+                        <h1>Voltar ao topo</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="rodape-card">
+                <div class="rodape-card-icones">
+                    <div>
+                        <a href="#" target="_blank" rel="external"><img
+                                id="github" src="./img/icons/linkedinIcon2.png" alt="botao"></a>
+                    </div>
+                    <div>
+                        <a href="#" target="_blank" rel="external"><img id="botao"
+                                src="./img/icons/curriculoIcon2.png" alt="botao"></a>
+                    </div>
+                    <div>
+                        <a href="#" target="_blank" rel="external"><img id="github"
+                                src="./img/icons/githubIcon2.png" alt="botao"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/scripts.js"></script>
+    </div>
 </body>
+
 </html>
+
