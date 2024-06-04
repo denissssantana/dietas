@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -7,11 +7,11 @@
 }
 
 html {  
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #ffff;
     background-color: #09212B;
 }
@@ -30,89 +30,85 @@ li {
 a {
     text-decoration: none;
     color: #ffff;
-    font-size: 1.4rem;
-}
-
-a:hover {
-    color: rgb(181, 179, 187);
+    
 }
 
 
-/*RESOLUTION 1920*/
+
+/*RESOLUTION - MOBILE - MAX 425px*/
 
 
-/*CONTENT*/
+/*COTEÚDO*/
 
 main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 7dvh;
+    margin-top: 60px;
 }
 
-.banner {
+
+/*LOGO IMAGEM*/
+
+.section-banner {
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-.banner img {
-   height: 200px;
+.section-banner img {
+   height: 100px;
     
 }
 
 
 
-/*ABOUT*/
 
-.section-01 {
+/*LOGO TEXTO*/
+
+.section-logo-text {
     display: flex;
     align-items: center;
     justify-content: center;
- 
+    margin-top: 40px;
 }
 
-.section-01 h1{
-    font-size: 60px;
-    font-weight: 100px;
-    margin: 80px;
+.section-logo-text h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+
+/*BOTÃO*/
+
+.section-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
     
 }
 
 
-/*Conteúdo-Projetos*/
-
-.section-02{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.section-02-botoes {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;   
-}
-
-.section-02-botoes button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
+.section-btn button{
     background-color: #205004;
-    font-size: 28px;
+    font-size: 18px;
     color: #ffff;
-    width: 150px;
+    width: 100px;
     height: auto;
-    padding: 5px;
+    padding: 4px;
     border-radius: 35px;
     cursor: pointer;
 }
 
 
+/*EFEITOS*/
 
+.efeito-banner, .efeito-text, .efeito-btn {
+    visibility: hidden;
+}
 
 
 

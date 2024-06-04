@@ -13,7 +13,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     color: #ffff;
-    background-color: #09212B;
+    background-color: #1e2f36;
 }
 
 .container {
@@ -64,7 +64,7 @@ header {
 }
 
 .navbar .logo h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 400;
 }
@@ -76,10 +76,14 @@ header {
 
 .navbar .toggle_btn {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 50px;
     cursor: pointer;
     display: none;
 }
+
+
+
+
 
 
 /*DROPDOWN MENU*/
