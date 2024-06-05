@@ -1,89 +1,120 @@
 /*BREAKPOINT BOX MENU*/
 
-/*RESOLUTION - TABLET - MAX 768px*/
+/*RESOLUTION - SMARTPHONE - MIN 360px - MAX 449px*/
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 360px) {
 
     main {
-        margin-top: 75px;
+        margin-top: 90px;
+                
     }
 
     .section-banner img {
         height: 130px; 
-     }
+    }
+             
 
-     .section-logo-text h1{
+     .section-logo-text {
+        margin-top: 100px;
+        
+    }
+
+    .section-logo-text h1{
         font-size: 60px;
-        font-weight: 300;
+        
+    }
+
+    .section-btn{
+        margin-top: 100px;
+        
     }
 
     .section-btn button{
-        background-color: #205004;
         font-size: 22px;
-        color: #ffff;
         width: 120px;
-        height: auto;
         padding: 6px;
-        border-radius: 35px;
-        cursor: pointer;
+        
     }
 
 }
 
 
-/*RESOLUTION - LAPTOP - MAX 1440px*/
 
-@media screen and (min-width: 769px) {
+
+/*RESOLUTION - SMARTPHONE - MIN 450px- MAX 749px*/
+
+@media screen and (min-width: 450px) {
 
     main {
+        margin-top: 120px;
+    }
+
+    .section-banner img {
+        height: 130px; 
+    }
+        
+     .section-logo-text {
         margin-top: 100px;
     }
 
-    .section-banner img {
-        height: 130px; 
-     }
+    .section-logo-text h1{
+        font-size: 60px;
+    }
 
-     .section-logo-text h1{
-        font-size: 80px;
-        font-weight: 300;
+    .section-btn{
+        margin-top: 100px;
     }
 
     .section-btn button{
-        background-color: #205004;
-        font-size: 30px;
-        color: #ffff;
+        font-size: 22px;
+        width: 120px;
+        padding: 6px;  
+    }
+
+}
+
+
+/*RESOLUTION - SMARTPHONE - MIN 750px- MAX 1100px*/
+
+@media screen and (min-width: 750px) {
+
+    main {
+        margin-top: 150px;
+    }
+
+    .section-banner img {
+        height: 180px; 
+    }
+        
+     .section-logo-text {
+        margin-top: 100px;
+        
+    }
+
+    .section-logo-text h1{
+        font-size: 90px;
+
+    }
+
+    .section-btn{
+        margin-top: 100px;
+        
+    }
+
+    .section-btn button{
+        font-size: 33px;
         width: 180px;
-        height: auto;
-        padding: 10px;
-        border-radius: 35px;
-        cursor: pointer;
+        padding: 10px; 
     }
 
 }
 
 
-/*RESOLUTION - LAPTOP - MAX 2560px*/
+/*RESOLUTION - SMARTPHONE - MIN 1100px- MAX 2559px*/
 
-@media screen and (min-width: 2560px) {
-
-    .section-banner img {
-        height: 300px; 
-     }
-
-     .section-logo-text h1{
-        font-size: 40px;
-        font-weight: 300;
-    }
-
-    .section-btn button{
-        background-color: #205004;
-        font-size: 18px;
-        color: #ffff;
-        width: 100px;
-        height: auto;
-        padding: 5px;
-        border-radius: 35px;
-        cursor: pointer;
-    }
+@media screen and (min-width: 1100px) {
 
 }
+
+/*RESOLUTION - LAPTOP - MIN 2560px*/
+
