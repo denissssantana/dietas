@@ -39,8 +39,6 @@
 }
 
 
-
-
 /*RESOLUTION - SMARTPHONE - MIN 450px- MAX 749px*/
 
 @media screen and (min-width: 450px) {
@@ -74,7 +72,7 @@
 }
 
 
-/*RESOLUTION - SMARTPHONE - MIN 750px- MAX 1100px*/
+/*RESOLUTION - TABLET - MIN 750px- MAX 1100px*/
 
 @media screen and (min-width: 750px) {
 
@@ -110,11 +108,50 @@
 }
 
 
-/*RESOLUTION - SMARTPHONE - MIN 1100px- MAX 2559px*/
+/*RESOLUTION - LAPTOP - MIN 1100px- MAX 1439px*/
 
 @media screen and (min-width: 1100px) {
 
+
+main {
+    margin-top: 100px;
 }
 
-/*RESOLUTION - LAPTOP - MIN 2560px*/
 
+}
+
+/*RESOLUTION - DESKTOP - MIN 1100px*/
+
+@media screen and (min-width: 1441px) {
+
+    main {
+        margin-top: 200px;
+    }
+
+    .section-banner img {
+        height: 320px; 
+    }
+        
+    .section-logo-text {
+        margin-top: 150px;
+        
+    }
+
+    .section-logo-text h1{
+        font-size: 160px;
+
+    }
+
+    .section-btn{
+        margin-top: 150px;
+        
+    }
+
+    .section-btn button{
+        font-size: 60px;
+        width: 300px;
+        padding: 15px;
+        border-radius: 55px; 
+    }
+
+    }

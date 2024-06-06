@@ -1,0 +1,450 @@
+/* Estilos para dispositivos móveis */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background-color: rgb(36, 35, 35);
+    max-width: 1280px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 768px;
+    background: #081C2E;
+    
+}
+
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+}
+
+.header {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 1vh;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    margin-left: 1vh;
+}
+
+.logo img {
+    height: 5vh;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 1vh;
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 2vh;
+}
+
+
+/* Conteúdo */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    margin: auto;
+    margin-bottom: 10vh; 
+}
+
+.menu-title { 
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    width: 100%;
+    padding-left: 7vh;
+    
+}
+
+.menu-title h1 {
+    color: #ffffff;
+    font-size: 3.5vh;
+}
+
+
+
+
+
+
+
+
+/* Botões */
+
+.btns-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    margin:  1vh 2vh 0 2vh;
+    gap: 2vh;
+    
+    
+} 
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 140px;
+    background-color: #16191d;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 0  0.5px rgb(83, 79, 79);
+    
+    
+}
+
+.btns-text {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 4px 0 0 0;
+    color: aliceblue;
+    font-size: 13px;
+    background-color: blueviolet; 
+}
+
+.btns-icon {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-top: auto;
+    width: auto;
+    
+}
+
+.btns-icon img {
+    height: 25px;
+    margin: 0 3px 6px 0;      
+}
+
+.btns-icon-antrop {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: end;
+    margin-top: auto;
+    width: auto;
+    
+}
+
+.btns-icon-antrop img {
+    height: 20px;
+    margin: 0 3px 6px 0;      
+}
+
+.btns-icon-graph {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: end;
+    margin-top: auto;
+    width: auto;
+    
+}
+
+.btns-icon-graph img {
+    height: 17px;
+    margin: 0 3px 6px 0;      
+}
+
+.btns-icon-system {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: end;
+    margin-top: auto;
+    width: auto;
+    
+}
+
+.btns-icon-system img {
+    height: 23px;
+    margin: 0 3px 6px 0;      
+}
+
+.btns-icon-dev {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: end;
+    margin-top: auto;
+    width: auto;
+    
+}
+
+.btns-icon-dev img {
+    height: 20px;
+    margin: 0 3px 6px 0;      
+}
+
+
+
+
+
+/* Container de dados */
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: black;
+    border-radius: 2vh;
+    
+    
+}
+
+.data-title {
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    width: auto;
+    padding-left: 2vh;
+    margin-bottom: 1vh;
+    
+}
+
+.data-title h1 {
+    color: #fff;
+    font-size: 2.5vh;
+}
+
+
+.data-text {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width: auto;
+    padding-left: 2vh;  
+}
+
+.data-text p {
+    color: #fff;
+    font-size: 2vh;
+    margin-top: 0;
+}
+
+
+
+/* Container de Orientações */
+
+
+.guide-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height:100%;
+    padding-bottom: 1vh;
+    background-color: black;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    
+    
+}
+
+.guide-title {
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    width: auto;
+    padding-left: 2vh;
+}
+
+.guide-title h1 {
+    color: #fff;
+    font-size: 2.5vh;
+}
+
+.guide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: auto;
+    
+}
+
+.guide-text p {
+    color: #fff;
+    font-size: 3vh;
+}
+
+
+
+/* Container de Dietas */
+
+.diet-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height:100%;
+    padding-bottom: 1vh;
+    background-color: black;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    
+    
+}
+
+.diet-title {
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    width: auto;
+    padding-left: 2vh;
+}
+
+.diet-title h1 {
+    color: #fff;
+    font-size: 3vh;
+}
+
+
+/* Container de receitas */
+
+.revenues-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height:100%;
+    padding-bottom: 1vh;
+    background-color: black;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    
+}
+
+.revenues-title {
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    width: auto;
+    padding-left: 2vh;
+}
+
+.revenues-title h1 {
+    color: #fff;
+    font-size: 3vh;
+}
+
+
+/* Container de Informações */
+
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height:100%;
+    padding-bottom: 1vh;
+    background-color: black;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.about-title {
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    width: auto;
+    padding-left: 2vh;
+}
+
+.about-title h1 {
+    color: #fff;
+    font-size: 3vh;
+}
+
+
+
+/* Rodpé */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    max-width: 768px;
+    width: 100%;
+    height: 6vh;
+    background-color: black;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:0 auto;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:0 auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+    
+    
+}
+
+nav ul li {
+    display: block;
+    justify-content: center;
+    width:0 auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+    
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+nav ul li a img {
+    height: 2.5vh;
+}
