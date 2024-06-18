@@ -10,22 +10,22 @@
     }
 
     .section-banner img {
-        height: 130px; 
+        height: 150px; 
     }
              
 
      .section-logo-text {
-        margin-top: 100px;
+        margin-top: 50px;
         
     }
 
     .section-logo-text h1{
-        font-size: 60px;
+        font-size: 40px;
         
     }
 
     .section-btn{
-        margin-top: 100px;
+        margin-top: 80px;
         
     }
 
@@ -77,15 +77,15 @@
 @media screen and (min-width: 750px) {
 
     main {
-        margin-top: 150px;
+        margin-top: 110px;
     }
 
     .section-banner img {
-        height: 180px; 
+        height: 250px; 
     }
         
      .section-logo-text {
-        margin-top: 100px;
+        margin-top: 70px;
         
     }
 
@@ -117,6 +117,30 @@ main {
     margin-top: 100px;
 }
 
+.section-banner img {
+    height: 230px; 
+}
+
+.section-logo-text {
+    margin-top: 20px;
+    
+}
+
+.section-logo-text h1{
+    font-size: 60px;
+
+}
+
+.section-btn{
+    margin-top: 70px;
+    
+}
+
+.section-btn button{
+    font-size: 33px;
+    width: 180px;
+    padding: 10px; 
+}
 
 }
 
