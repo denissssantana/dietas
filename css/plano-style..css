@@ -52,7 +52,7 @@ header {
 
 .navbar {
     display: flex;   
-    height: 38px;
+    height: 35px;
     align-items: center; 
 }
 
@@ -91,51 +91,119 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 35px;
+    margin-bottom: 50px;
 }
 
-.section-00 {
+.section-dados {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: #4f5abd;
+    background-color: #1C323C;
 }
 
-.section-00-text {
+.section-title-dados {
     width: 100%;
-    padding-left: 20px;
-    margin: 15px 15px;
-    background-color: #0e21ca;
+    padding-left: 30px;
+    margin: 30px 15px 10px 15px;
 }
 
-.section-00-text h1{
-    font-size: 20px;
+.section-title-dados h2{
+    font-size: 18px;
     font-weight: 300;
     
 }
 
-
-.section-00-card {
+.section-card-dados {
     display: flex;
     flex-direction: column;    
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 95%;
+    width: 90%;
     height: auto;
     padding: 10px;
-    border: 3px solid #804E33;
+    border: 3px solid #22AD1F;
     border-radius: 25px;
-    background-color: #09212B;
+    background-color: #ffff;
     
 }
 
-.section-00-card-text p {
-
+.section-card-text p {
     font-size: 15px;
     font-weight: 100;
+    color: black;
 
+}
+
+
+
+
+
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1C323C;
+}
+
+.section-title {
+    width: 100%;
+    padding-left: 30px;
+    margin: 55px 15px 10px 15px;
+}
+
+.section-title h2{
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.section-card {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border: 3px solid #22AD1F;
+    border-radius: 25px;
+    background-color: #ffff;
+    
+}
+
+.section-card-text p {
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+
+}
+
+.section-card-text p {
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+
+}
+
+.section-card-cardapio P {
+    margin: 10px 0 1px 0;
+    font-size: 10px;
+    color: black;
+}
+
+.section-card-cardapio img {
+    height: 350px;
+}
+
+.section-card-subistituicao img {
+    height: 350px;
 }
 
 
@@ -152,12 +220,11 @@ main {
 footer {
     display: flex;
     align-items: center;
-    justify-content: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: #09212B;
     
 }
 
@@ -166,42 +233,30 @@ nav {
     align-items: center;
     justify-content: center;
     width:100%;
+    
+    
 
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    border: none;
-    
-    
-}
-
-nav ul li {
+nav li {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
     padding: 0;
     margin: 0;
     border: none;
-    
-    
+    gap: 4px;
 }
 
-nav ul li a {
+nav li a {
     display: flex;
-    align-items: center;
-    justify-content:center;
-    
+    align-items: center;  
     
 }
 
-nav ul li a img {
-    height: 5vh;
+nav li a img {
+    height: 17px;
     margin: 5px;
+    
 }
 
 
