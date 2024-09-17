@@ -73,8 +73,6 @@ header {
     align-items: center;
     margin-left: 5px;
     margin-top: 10px;
-    
-    
 }
 
 .navbar-text h1 {
@@ -90,112 +88,55 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 50px;
 }
 
 
-.section-info {
+
+.section-orientacao {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    background-color: #1C323C;
+}
+
+.section-title-orientacao {
+    width: 100%;
+    padding: 0 30px;
+    margin: 30px 15px 10px 15px;
+}
+
+.section-title-orientacao h2{
+    font-size: 18px;
+    font-weight: 500;
     
 }
 
-
-.section-card-info {
+.section-card-orientacao {
     display: flex;
     flex-direction: column;    
     justify-content: center;
-    align-items:center;
+    align-items:flex-start;
     width: 90%;
     height: auto;
-    padding: 30px;
-    
-    
-    
-}
-
-
-.section-card-signature {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ffff;
+    line-height: 25px;  
     
 }
 
-.section-card-signature img {
-    height: 110px;
-}
 
-.section-card-signature p {
-    font-size: 18px;
+.section-card-text p {
+    font-size: 17px;
     font-weight: 100;
-    color: #ffff;
-}
+    color: black;
+    margin: 20px 0;
+    
 
-
-.section-card-zap {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    gap: 5px;
-}
-
-.section-card-zap img {
-    height: 100px;
-}
-
-.section-card-zap p {
-    font-size: 20px;
-    font-weight: 100;
-    color: #ffff;
-}
-
-
-.section-card-email {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    gap: 5px;
-}
-
-.section-card-email img {
-    height: 100px;
-}
-
-.section-card-email p {
-    font-size: 20px;
-    font-weight: 100;
-    color: #ffff;
-}
-
-.section-card-insta {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    gap: 5px;
-}
-
-.section-card-insta img {
-    height: 110px;
-}
-
-.section-card-insta p {
-    font-size: 20px;
-    font-weight: 100;
-    color: #ffff;
 }
 
 
