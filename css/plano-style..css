@@ -81,6 +81,7 @@ header {
     font-size: 19px;
     font-weight: 300;  
 }
+    
 
 
 /*CONTENT*/
@@ -94,7 +95,9 @@ main {
     margin-bottom: 50px;
 }
 
-.section-dados {
+
+
+.section-refeicao {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,19 +106,19 @@ main {
     background-color: #1C323C;
 }
 
-.section-title-dados {
+.section-title-refeicao {
     width: 100%;
     padding-left: 30px;
     margin: 30px 15px 10px 15px;
 }
 
-.section-title-dados h2{
+.section-title-refeicao h2{
     font-size: 18px;
     font-weight: 500;
     
 }
 
-.section-card-dados {
+.section-card-refeicao {
     display: flex;
     flex-direction: column;    
     justify-content: center;
@@ -139,10 +142,7 @@ main {
 
 
 
-
-
-
-.section {
+.section-cardapio {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,19 +151,19 @@ main {
     background-color: #1C323C;
 }
 
-.section-title {
+.section-title-cardapio {
     width: 100%;
     padding-left: 30px;
-    margin: 55px 15px 10px 15px;
+    margin: 30px 15px 10px 15px;
 }
 
-.section-title h2{
+.section-title-cardapio h2{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     
 }
 
-.section-card {
+.section-card-cardapio {
     display: flex;
     flex-direction: column;    
     justify-content: center;
@@ -171,10 +171,10 @@ main {
     width: 90%;
     height: auto;
     padding: 10px 20px;
-    
     border-radius: 25px;
     background-color: #ffff;
     line-height: 25px;
+    
     
 }
 
@@ -185,71 +185,8 @@ main {
 
 }
 
-.section-card-text p {
-    font-size: 15px;
-    font-weight: 100;
-    color: black;
-
-}
-
-.section-card-cardapio P {
-    margin: 10px 0 1px 0;
-    font-size: 10px;
-    color: black;
-}
-
-.section-card-cardapio img {
-    height: 350px;
-}
-
-.section-card-subistituicao img {
-    height: 350px;
-}
 
 
-
-.section-card-contact {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items:center;
-    width: 90%;
-    height: auto;
-    padding: 10px 20px;
-    border-radius: 25px;
-    background-color: #ffff;
-    line-height: 25px;
-    
-}
-
-
-
-.section-card-contact p {
-    font-size: 15px;
-    font-weight: 100;
-    color: black;
-}
-
-
-.section-card-contact img {
-    height: 40px;
-}
-
-
-.section-card-contact-zap{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.section-card-contact-insta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
@@ -269,6 +206,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: auto;
+    padding: 5px;
     background-color: #09212B;
     
 }
@@ -276,11 +214,8 @@ footer {
 nav {
     display: flex;;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
     width:100%;
-    
-    
-
 }
 
 nav li {
@@ -289,19 +224,11 @@ nav li {
     padding: 0;
     margin: 0;
     border: none;
-    gap: 3px;
 }
 
 nav li a {
     display: flex;
     align-items: center;  
-    
-}
-
-nav li a img {
-    height: 20px;
-    margin: 5px;
-    
 }
 
 
