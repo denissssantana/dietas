@@ -111,7 +111,7 @@ main {
 
 .section-title-dados h2{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 300;
     
 }
 
@@ -132,7 +132,7 @@ main {
 
 .section-card-text p {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 
 }
@@ -148,7 +148,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: ##062D3D;
+    background-color: #062D3D;
 }
 
 .section-title {
@@ -180,21 +180,16 @@ main {
 
 .section-card-text p {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 
 }
 
-.section-card-text p {
-    font-size: 15px;
-    font-weight: 100;
-    color: black;
-
-}
 
 .section-card-cardapio P {
     margin: 10px 0 1px 0;
     font-size: 10px;
+    font-weight: 300;
     color: black;
 }
 
@@ -226,7 +221,7 @@ main {
 
 .section-card-contact p {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 }
 

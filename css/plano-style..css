@@ -135,7 +135,7 @@ main {
 
 .section-card-text p {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 
 }
@@ -149,6 +149,7 @@ main {
     flex-direction: column;
     width: 100%;
     background-color: #1C323C;
+    gap: 10px;
 }
 
 .section-title-cardapio {
@@ -159,7 +160,7 @@ main {
 
 .section-title-cardapio h2{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 300;
     
 }
 
@@ -167,23 +168,41 @@ main {
     display: flex;
     flex-direction: column;    
     justify-content: center;
-    align-items:flex-start;
+    align-items:center;
     width: 90%;
     height: auto;
-    padding: 10px 20px;
+    padding: 10px 12px;
     border-radius: 25px;
     background-color: #ffff;
     line-height: 25px;
-    
-    
 }
 
-.section-card-text p {
+.section-card-cardapio p {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 
 }
+
+.section-card-cardapio img {
+    width: 100%;
+
+}
+
+
+
+.section-card-cardapio-text {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items:center;
+    background-color:  
+}
+
+
+
+
+
 
 
 

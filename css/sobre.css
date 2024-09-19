@@ -135,7 +135,7 @@ main {
 
 .section-card-signature p {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     color: #ffff;
 }
 
@@ -155,7 +155,7 @@ main {
 
 .section-card-zap p {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     color: #ffff;
 }
 
@@ -175,7 +175,7 @@ main {
 
 .section-card-email p {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     color: #ffff;
 }
 
@@ -194,7 +194,7 @@ main {
 
 .section-card-insta p {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     color: #ffff;
 }
 
