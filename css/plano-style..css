@@ -103,7 +103,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: #1C323C;
+    background-color: #062D3D;
 }
 
 .section-title-refeicao {
@@ -142,13 +142,15 @@ main {
 
 
 
+
+
 .section-cardapio {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: #1C323C;
+    background-color: #062D3D;
     gap: 10px;
 }
 
@@ -196,12 +198,31 @@ main {
     flex-direction: row;    
     justify-content: center;
     align-items:center;
-    background-color:  
+      
 }
 
 
 
+.section-card-impressao {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    gap: 5px;
+    background-color: 
+}
 
+.section-card-impressao img {
+    height: 60px;
+}
+
+.section-card-impressao p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffff;
+}
 
 
 
