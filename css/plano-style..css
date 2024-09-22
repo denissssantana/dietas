@@ -246,7 +246,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: auto;
-    padding: 5px;
+    padding: 7px;
     background-color: #09212B;
     
 }
@@ -269,6 +269,11 @@ nav li {
 nav li a {
     display: flex;
     align-items: center;  
+}
+
+nav li a p {
+    font-size: 19px;
+    font-weight: 300;    
 }
 
 

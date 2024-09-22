@@ -90,7 +90,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+
     margin-bottom: 30px;
 }
 
@@ -100,8 +100,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 
@@ -119,28 +118,8 @@ main {
 }
 
 
-.section-card-signature {
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
-    
-}
 
-.section-card-signature img {
-    height: 110px;
-}
-
-.section-card-signature p {
-    font-size: 18px;
-    font-weight: 300;
-    color: #ffff;
-}
-
-
-.section-card-zap {
+.section-card-dados {
     display: flex;
     flex-direction: column;    
     justify-content: center;
@@ -149,18 +128,19 @@ main {
     gap: 5px;
 }
 
-.section-card-zap img {
-    height: 100px;
+.section-card-dados img {
+    height: 70px;
 }
 
-.section-card-zap p {
+.section-card-dados p {
     font-size: 20px;
     font-weight: 300;
     color: #ffff;
 }
 
 
-.section-card-email {
+
+.section-card-plano {
     display: flex;
     flex-direction: column;    
     justify-content: center;
@@ -169,17 +149,20 @@ main {
     gap: 5px;
 }
 
-.section-card-email img {
-    height: 100px;
+.section-card-plano img {
+    height: 70px;
 }
 
-.section-card-email p {
+.section-card-plano p {
     font-size: 20px;
     font-weight: 300;
     color: #ffff;
 }
 
-.section-card-insta {
+
+
+
+.section-card-orientacao {
     display: flex;
     flex-direction: column;    
     justify-content: center;
@@ -188,11 +171,32 @@ main {
     gap: 5px;
 }
 
-.section-card-insta img {
-    height: 110px;
+.section-card-orientacao img {
+    height: 70px;
 }
 
-.section-card-insta p {
+.section-card-orientacao p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffff;
+}
+
+
+
+.section-card-contato {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 5px;
+}
+
+.section-card-contato img {
+    height: 80px;
+}
+
+.section-card-contato p {
     font-size: 20px;
     font-weight: 300;
     color: #ffff;
@@ -212,7 +216,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: auto;
-    padding: 5px;
+    padding: 7px;
     background-color: #09212B;
     
 }
@@ -235,6 +239,11 @@ nav li {
 nav li a {
     display: flex;
     align-items: center;  
+}
+
+nav li a p {
+    font-size: 19px;
+    font-weight: 300;    
 }
 
 
